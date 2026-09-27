@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.lukv.farmingParty.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PestProfitTrackerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
